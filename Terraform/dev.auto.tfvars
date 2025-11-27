@@ -1,4 +1,5 @@
-env              = "dev"
-cidr-block       = "10.0.0.0/16"
-pub-subnet-count = 4
-pub-cidr-block   = ["10.0.0.0/20", "10.0.16.0/20", "10.0.32.0/20", "10.0.64.0/20"]
+env                   = "dev"
+cidr-block            = "10.0.0.0/16"
+pub-subnet-count      = 4
+pub-cidr-block        = ["10.0.0.0/20", "10.0.16.0/20", "10.0.32.0/20", "10.0.64.0/20"]
+pub-availability-zone = ["us-east-1a", "us-east-1b", "us-east-1c", "us-east-1d"]
